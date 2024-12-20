@@ -10,7 +10,7 @@ This LLM - VoiceBot is a user-friendly AI-powered chatbot that allows seamless v
 - 📹 **Webcam Integration:** Displays a live webcam feed for real-time interaction.  
 - 💬 **Chat History:** Tracks all conversations for reference.  
 - ⬇️ **Downloadable Audio:** Download chatbot responses as audio files.  
-- 🧮 **Simple Queries Support:** Handles questions like "What is 2+2?" or "What's the time?"  
+- 🧮 **Simple Queries Support:** Handles questions like "What is 2+2?" or "What is AI?"  
 
 ---
 
@@ -23,15 +23,18 @@ This LLM - VoiceBot is a user-friendly AI-powered chatbot that allows seamless v
 
 ---
 
-## **Technologies Used**  
-- **Gradio:** For building an interactive user interface.  
-- **OpenAI Whisper:** Converts speech to text.  
-- **Groq API:** Generates AI responses using LLaMA.  
-- **gTTS:** Converts text to speech.  
-- **OpenCV:** Integrates real-time webcam feed.  
-- **NumPy & PIL:** For image processing and webcam frame handling.  
-- **TempFile:** Manages temporary audio files.  
+# **Key Libraries Used**  
 
+1. **Gradio**: For creating the user-friendly web interface with voice input, webcam integration, and chat display.  
+2. **Whisper**: For converting speech to text using OpenAI’s advanced speech recognition model.  
+3. **gTTS**: For generating text-to-speech audio outputs of the chatbot’s responses.  
+4. **pydub**: For audio processing and trimming features.  
+5. **NumPy**: For efficient numerical operations and data manipulation.  
+6. **Requests**: For making HTTP requests to APIs.  
+7. **Groq**: For using the **[Groq Console](https://console.groq.com/)** API to generate responses using the LLaMA language model.  
+8. **OpenCV-Python**: For integrating a live webcam feed within the interface.  
+9. **Pillow**: For handling image data captured from the webcam.  
+10. **Tempfile**: For managing temporary files, especially for audio outputs.  
 ---
 
 ## **Installation**  
@@ -49,12 +52,16 @@ This LLM - VoiceBot is a user-friendly AI-powered chatbot that allows seamless v
 
 3. Run the application:  
    ```bash  
-   python app.py  
+   python VoiceChatBot.py  
    ```  
 
 ---
 
 ## **Demo**  
+
+**User Interface using Gradio**
+![image](https://github.com/user-attachments/assets/91ea3e86-b947-4981-b603-5ca2e3c5d0c5)
+
 The bot allows you to:  
 - Speak to it using a microphone.  
 - View live webcam feed while chatting.  
