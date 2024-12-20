@@ -10,7 +10,7 @@ import threading
 import numpy as np
 
 client = Groq(
-    api_key="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",
+    api_key="----Groq API Key----",
 )
 
 model = whisper.load_model("base")
@@ -67,7 +67,7 @@ def chatbot_pipeline(audio_path):
 def render_interface():
     with gr.Blocks() as iface:
         gr.Markdown(
-            "<h1 style='text-align: center;'>🗣️ TensorGo's VoiceBot 🗣️</h1>",
+            "<h1 style='text-align: center;'>🗣️ LLM VoiceBot 🗣️</h1>",
             elem_id="title"
         )
 
