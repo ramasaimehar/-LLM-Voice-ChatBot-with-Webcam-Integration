@@ -57,7 +57,7 @@ This LLM - VoiceBot is a user-friendly AI-powered chatbot that allows seamless v
 
 ---
 
-## **Demo**  
+## **Results**  
 
 **User Interface using Gradio**
 ![image](https://github.com/user-attachments/assets/91ea3e86-b947-4981-b603-5ca2e3c5d0c5)
@@ -66,7 +66,11 @@ The bot allows you to:
 - Speak to it using a microphone.  
 - View live webcam feed while chatting.  
 - Get conversational text responses that are also converted to speech.  
-- Download the audio responses for later use.  
+- Download the audio responses for later use.
+  
+**Output :**  
+![WhatsApp Image 2024-12-20 at 19 27 20_394df60e](https://github.com/user-attachments/assets/b43ea6f3-ad8f-4a27-867f-a2f8f0f46f79)
+
 
 ---
 
